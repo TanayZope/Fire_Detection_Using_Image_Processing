@@ -1,31 +1,29 @@
-**Project: FIRE DETECTION USING IMAGE PROCESSING**
+# FIRE DETECTION USING IMAGE PROCESSING
 
-![Project Banner](https://link.to/your/project/banner/image)
+## Overview
 
-### Overview
+The "Fire Detection using Image Processing" project is an advanced web application developed in Django that employs Convolutional Neural Networks (CNN) based on imagenet to detect fire incidents in real-time video feeds. The primary objective of this project is to provide an efficient and timely fire detection system to mitigate potential fire hazards.
 
-The "Fire Detection using Image Processing" project is a web application developed in Django that utilizes Convolutional Neural Networks (CNN) based on imagenet to detect the presence or absence of fire in real-time video feeds. The application accepts live feed video input from the device camera and processes the frames to detect potential fire incidents. Upon fire detection, the system raises an alarm and promptly sends notifications to the user's provided contact number.
+## Key Features
 
-### Key Features
+- **Real-time Fire Detection:** The application processes live video feeds and swiftly detects fire incidents, ensuring timely responses to potential fire hazards.
 
-- Real-time Fire Detection: The application processes live video feeds and detects fire incidents in real-time, providing timely responses to potential fire hazards.
+- **Alarm and Notifications:** Upon detecting fire, the system triggers an automated alarm to prompt immediate attention. Additionally, it sends notifications to the user's specified contact number, ensuring quick and decisive action.
 
-- Alarm and Notifications: In the event of fire detection, an automated alarm is triggered, ensuring immediate attention. Additionally, notifications are sent to the user's specified contact number for prompt action.
+- **Support for Multiple Devices:** The application supports various devices using IPWebcam, allowing users to integrate additional cameras for comprehensive fire surveillance.
 
-- Support for Multiple Devices: The application supports various devices using IPWebcam, allowing users to integrate additional cameras for comprehensive coverage.
+## Tech Stack
 
-### Tech Stack
+The project leverages cutting-edge technologies and tools to deliver robust fire detection capabilities:
 
-The project leverages the following technologies and tools:
+- Python: The core programming language used for application development.
+- Django: A powerful web framework that provides a robust foundation for building scalable web applications.
+- Convolutional Neural Networks (CNN): Employed for image processing and detecting fire patterns in video frames.
+- Image Processing: Utilized to analyze video frames and identify fire-related patterns or characteristics.
+- IPWebcam: Enables integration with multiple devices, expanding the scope of surveillance.
+- HTML and CSS: Used for designing an intuitive and user-friendly web interface.
 
-- Python
-- Django
-- Convolutional Neural Networks (CNN)
-- Image Processing
-- IPWebcam
-- HTML, CSS
-
-### Installation and Setup
+## Installation and Setup
 
 To run the application locally, follow these steps:
 
@@ -35,24 +33,28 @@ To run the application locally, follow these steps:
 4. Run the Django development server: `python manage.py runserver`
 5. Access the application in your web browser at: `http://localhost:8000/`
 
-### Usage
+## Usage
 
-1. Provide the necessary permissions for camera access when prompted.
-2. Start the live video feed to begin fire detection.
-3. In case of fire detection, the system will trigger an alarm and send notifications to the provided contact number.
+1. Provide necessary permissions for camera access when prompted.
+2. Start the live video feed to initiate fire detection.
+3. In the event of fire detection, the system triggers an alarm and sends notifications to the provided contact number.
 
-### Contributions
+## Contributions
 
 Contributions to the project are welcome. If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-### License
+## License
 
 This project is licensed under the [MIT License](https://github.com/TanayZope/final-Year-Project/blob/main/LICENSE).
 
-### Acknowledgments
+## Acknowledgments
 
-Special thanks to [Name or Organization](https://github.com/username) for their guidance and support throughout the project.
+Special thanks to the following individuals, who contributed to this project with their invaluable guidance and support:
 
-For any queries or feedback, please feel free to reach out to [Your Email Address](mailto:youremail@example.com).
+- [Saba Syed](https://github.com/saba-coder)
+- [Gunjan Sharma](https://github.com/gunja1205)
+- [Shrikant Dandge](https://github.com/SHRISHRIKANT)
 
-**Note: Make sure to replace the "Project Banner" link with an appropriate image representing your project. Also, update any placeholders like "Your Email Address" and "[Name or Organization](https://github.com/username)" with the relevant information.**
+Their dedication and collaborative efforts significantly contributed to the success of the "Fire Detection using Image Processing" project.
+
+For any queries or feedback, please feel free to reach out to [zopetanay1o1@gmail.com](mailto:zopetanay1o1@gmail.com).
